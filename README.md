@@ -2,24 +2,88 @@ import java.util.Scanner;
 
 public class UnidadCuatro{
     public static void main(String[] args) {
-    //ej1();
-    //ej2();
-    //ej3();
-    //ej4();
-    //ej5();
-    //ej6();
-    //ej7();
-    //ej8();
-    //ej9();
-    //ej10();
-    //ej11();
-    //ej12();
-    //ej13();
-    //ej14();
-    //ej15();
-    //ej16();
-    //ej17();
-    //ej18();
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Introduce el número del ejercicio que desees corregir");
+        int e = input.nextInt();
+
+    if(e == 1){
+         ej1();
+    }
+
+     if(e == 2){
+         ej2();
+    }
+
+     if(e == 3){
+         ej3();
+    }
+
+     if(e == 4){
+         ej4();
+    }
+
+     if(e == 5){
+         ej5();
+    }
+
+     if(e == 6){
+         ej6();
+    }
+
+     if(e == 7){
+         ej7();
+    }
+
+     if(e == 8){
+         ej8();
+    }
+
+     if(e == 9){
+         ej9();
+    }
+
+     if(e == 10){
+         ej10();
+    }
+
+     if(e == 11){
+         ej11();
+    }
+
+     if(e == 12){
+         ej12();
+    }
+
+     if(e == 13){
+         ej13();
+    }
+
+     if(e == 14){
+         ej14();
+    }
+
+     if(e == 15){
+         ej15();
+    }
+
+     if(e == 16){
+         ej16();
+    }
+
+     if(e == 17){
+         ej17();
+    }
+
+     if(e == 18){
+         ej18();
+    }
+
+     if(e > 18){
+         System.out.println("Ese ejercició NO existe");;
+    }
+   
+    
     }    
 
 //EJERCICIOS NIVEL PADAWAN
@@ -438,4 +502,3 @@ public class UnidadCuatro{
             
         }
 }
-
